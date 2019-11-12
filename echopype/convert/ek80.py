@@ -16,7 +16,7 @@ from itertools import groupby
 from datetime import datetime, timedelta
 from struct import unpack
 
-class convertEK80(object):
+class ConvertEK80(object):
     def __init__(self, _fn=""):
         self.SAMPLE_REGEX =  b'NME0|XML0|RAW3|TAG0|self.mru0|FIL1'
         self.BLOCK_SIZE = 1024 * 40 #Block size for search radius
